@@ -72,21 +72,36 @@ format("opentype");
     }
   
       .content {
-        max-width: 800px;
+        max-width: 600px;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        gap: 20px;
+        gap: 10px;
         margin-top: 30px;
     }
 
     .grid-item {
         text-align: center;
+      background-color: #161617;
+      border-radius: 12px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
+  
+  
+  
+      .grid-item:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+              background-color: #232325;
+        cursor: pointer;
+  }
 
     .grid-item img {
-        width: 50px;
-        height: 50px;
+        width: 58px;
+        height: 58px;
         display: block;
         margin: 0 auto 10px;
       margin-left: auto;
@@ -95,9 +110,11 @@ format("opentype");
     }
 
     .subtitle {
-        font-size: 14px;
+        font-size: 18px;
       color: white;
       text-align: center; 
+            font-family: "YS1" !important;
+      font-weight: 100;
     }
   
   
@@ -168,21 +185,24 @@ format("opentype");
   
   
 .FormButton  {
-    background-color: #ffcc02;
+    background-color: #ffffff0f;
     color: #fff;
     padding: 8px 15px;
     border: none;
     cursor: pointer;
-    font-family: "saasduoPAR" !important;
-    font-weight: 100;
     letter-spacing: -0.2px;
-    font-size: 20px;
     border-radius: 15px !important;
     margin-left: 0px;
     height: 50px;
     padding-left: 23px;
     padding-right: 23px;
     padding-top: 9px;
+  
+  font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: "YS1" !important;
+    font-weight: 100;
 }
   
   
@@ -317,23 +337,23 @@ format("opentype");
     <div class="content">
         <div class="grid-item">
             <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Video.svg?v=1711039439107" alt="Image 1">
-            <div class="subtitle">Video</div>
+            <div class="subtitle">Videos</div>
         </div>
         <div class="grid-item">
             <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/cloud.svg?v=1711053554997" alt="Image 2">
-            <div class="subtitle">Subtitle 2</div>
+            <div class="subtitle">Docs</div>
         </div>
         <div class="grid-item">
             <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Asset.svg?v=1711040420297" alt="Image 3">
-            <div class="subtitle">Subtitle 3</div>
+            <div class="subtitle">Assets</div>
         </div>
         <div class="grid-item">
             <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Branding.svg?v=1711041204524" alt="Image 4">
-            <div class="subtitle">Subtitle 4</div>
+            <div class="subtitle">Branding</div>
         </div>
         <div class="grid-item">
             <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/UI.svg?v=1711052436266" alt="Image 5">
-            <div class="subtitle">Subtitle 5</div>
+            <div class="subtitle">UI</div>
         </div>
     </div>
   
