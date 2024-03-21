@@ -8,17 +8,34 @@
     body, html {
         margin: 0;
         padding: 0;
+      background-color: #161617;
     }
 
     .container {
-        background-color: black;
+        background-color: #161617;
         width: 100%;
         padding: 20px 0;
         box-sizing: border-box;
     }
 
-    .content {
-        max-width: 1000px;
+    .Entitled {
+        max-width: 800px;
+        margin: 0 auto;
+        display: block;
+        gap: 20px;
+      text-align: center;
+    }
+  
+  
+  
+    .title {
+        font-size: 14px;
+      color: white;
+      text-align: center; 
+    }
+  
+      .content {
+        max-width: 800px;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -34,16 +51,49 @@
         height: 50px;
         display: block;
         margin: 0 auto 10px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; 
     }
 
     .subtitle {
         font-size: 14px;
+      color: white;
+      text-align: center; 
     }
+  
+  
+  
+      .FormBlock {
+        background-color: #2a2a2c;
+        width: 90%;
+        max-width: 700px;
+        padding: 20px 0;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+        .FormField {
+          background-color: white;
+          width: 90%;
+        max-width: 700px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+  
 </style>
 </head>
 <body>
 
 <div class="container">
+  
+  
+  <div class="Entitled">
+    <div class="title">Our services that link your predicted audience with your content</div>
+    </div>
     <div class="content">
         <div class="grid-item">
             <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/images0.2.png?v=1711030513382" alt="Image 1">
@@ -54,18 +104,35 @@
             <div class="subtitle">Subtitle 2</div>
         </div>
         <div class="grid-item">
-            <img src="image3.jpg" alt="Image 3">
+            <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/images0.2.png?v=1711030513382" alt="Image 3">
             <div class="subtitle">Subtitle 3</div>
         </div>
         <div class="grid-item">
-            <img src="image4.jpg" alt="Image 4">
+            <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/images0.2.png?v=1711030513382" alt="Image 4">
             <div class="subtitle">Subtitle 4</div>
         </div>
         <div class="grid-item">
-            <img src="image5.jpg" alt="Image 5">
+            <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/images0.2.png?v=1711030513382" alt="Image 5">
             <div class="subtitle">Subtitle 5</div>
         </div>
     </div>
+  
+  
+    <div class="FormBlock">
+    <div class="FormField">
+              <div class="FormFieldBlock"><input type="text" class="dropdown-inputS" placeholder="Learning Experience Platform">
+              </div>
+              <div class="FormFieldBlock"><button class="fermerinfoable lazyload" onclick="masquerDiv()">Accept all</button>
+              </div>
+
+      </div>
+      
+    <div class="title">Our services that link your predicted audience with your content</div>
+    </div>
+  
+  
+  
+  
 </div>
 
 </body>
