@@ -1,8 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" translate="no">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="google" content="notranslate" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SaaSduo — Each interaction matters</title>
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/c0151ab8-f45e-43cf-ba43-a2348a9a865e/SaaSduo%20Google%20Meta%20Favicon%202024.png?v=1704796237960"
+    />
+    <link rel="canonical" href="saasduo.com" />
+
+    <meta
+      name="description"
+      content="SaaSduo builds mission-critical software and platforms that helps SMBs and industry leaders bloom — We craft personalized end-to-end experiences and systems ; to centralize external or internal features and activities. "
+    />
+    <meta property="og:title" content="SaaSduo — Each interaction matters" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="saasduo.com" />
+    <meta
+      property="og:description"
+      content="SaaSduo builds mission-critical software and platforms that helps SMBs and industry leaders bloom — We craft personalized end-to-end experiences and systems ; to centralize external or internal features and activities. "
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/c0151ab8-f45e-43cf-ba43-a2348a9a865e/SaaSduo.com%20Google%20SEO%20Meta%202024.png?v=1704796488014"
+    />
+    <meta
+      name="twitter:card"
+      content="SaaSduo builds mission-critical software and platforms that helps SMBs and industry leaders bloom — We craft personalized end-to-end experiences and systems ; to centralize external or internal features and activities. "
+    />
+    <meta
+      name="keywords"
+      content="saasduo, SaaSduo, Saasduo, saas duo, roesch ronan, ronan roesch, saasduo.com"
+    />
+  
 <title>Div Grid</title>
 <style>
     body, html {
@@ -350,7 +385,7 @@ margin-right: 25px;
     <img class="imglog" src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/white.svg?v=1711038207865" alt="Image 1">
     </div>
           <div class="ringenCOL2">
-    <button class="NavButton" onclick="masquerDiv()">Log in</button>
+    <button class="NavButton" onclick="openPopup()">Contact Sales</button>
     </div>
     </div>
 <div class="container">
@@ -361,23 +396,23 @@ margin-right: 25px;
     <div class="title">Our services that link your predicted audience with your content</div>
     </div>
     <div class="content">
-        <div class="grid-item">
+        <div class="grid-item" onclick="openPopup()">
             <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Video.svg?v=1711039439107" alt="Image 1">
             <div class="subtitle">Videos</div>
         </div>
-        <div class="grid-item">
+        <div class="grid-item" onclick="openPopup()">
             <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/cloud.svg?v=1711053554997" alt="Image 2">
             <div class="subtitle">Docs</div>
         </div>
-        <div class="grid-item">
+        <div class="grid-item" onclick="openPopup()">
             <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Asset.svg?v=1711040420297" alt="Image 3">
             <div class="subtitle">Assets</div>
         </div>
-        <div class="grid-item">
+        <div class="grid-item" onclick="openPopup()">
             <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Branding.svg?v=1711041204524" alt="Image 4">
             <div class="subtitle">Branding</div>
         </div>
-        <div class="grid-item">
+        <div class="grid-item" onclick="openPopup()">
             <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/UI.svg?v=1711052436266" alt="Image 5">
             <div class="subtitle">UI</div>
         </div>
@@ -388,21 +423,18 @@ margin-right: 25px;
     <div class="FormField">
               <div class="FormFieldBlock"><input type="text" class="dropdown-inputS" placeholder="Learning Experience Platform">
               </div>
-              <div class="FormFieldBlock"><button class="FormButton" onclick="masquerDiv()">Request a call back</button>
+              <div class="FormFieldBlock"><button class="FormButton" onclick="openPopup()">Request a call back</button>
               </div>
 
       </div>
       
         <div class="FormSuggest">
           
-<div class="Sugg"><img class="arrow" src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/images0.2.png?v=1711030513382" alt="Image 3">
-<div class="suggestion">Subtitle 3</div></div> 
+<div class="Sugg"><div class="suggestion">Subtitle 3</div></div> 
           
-<div class="Sugg"><img class="arrow" src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/images0.2.png?v=1711030513382" alt="Image 3">
-<div class="suggestion">Subtitle 3</div></div> 
+<div class="Sugg"><div class="suggestion">Subtitle 3</div></div> 
           
-<div class="Sugg"><img class="arrow" src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/images0.2.png?v=1711030513382" alt="Image 3">
-<div class="suggestion">Subtitle 3</div></div> 
+<div class="Sugg"><div class="suggestion">Subtitle 3</div></div> 
       
       
       </div>
@@ -425,10 +457,10 @@ margin-right: 25px;
         
 <div class="parent" id="parent">
     <!-- Ajouter chaque div-item avec une classe individuelle pour l'image de fond et un lien href individuel -->
-      <div class="item lutte1" style="background-image: url('https://cdn.glitch.global/838d87f3-f7f8-4508-b4dd-6b86e4dd7d97/c9-aa4dc061d436d2525b5f05d8e5679b4d.png?v=1710942555973');" data-href="URL_LIEN_1"></div>
-    <div class="item max lutte2" style="background-image: url('https://cdn.glitch.global/838d87f3-f7f8-4508-b4dd-6b86e4dd7d97/c8-7f049b095a11c1af504fb330375ebd1d.png?v=1710942647661');" data-href="URL_LIEN_2"></div>
-    <div class="item lutte3" style="background-image: url('https://cdn.glitch.global/838d87f3-f7f8-4508-b4dd-6b86e4dd7d97/c3-d2b551f949e3a3159dac946231bdfc2e.png?v=1710942643131');" data-href="URL_LIEN_3"></div>
-      <div class="item lutte4" style="background-image: url('https://cdn.glitch.global/838d87f3-f7f8-4508-b4dd-6b86e4dd7d97/c9-aa4dc061d436d2525b5f05d8e5679b4d.png?v=1710942555973');" data-href="URL_LIEN_1"></div>
+      <div class="item " style="background-image: url('https://cdn.glitch.global/838d87f3-f7f8-4508-b4dd-6b86e4dd7d97/c9-aa4dc061d436d2525b5f05d8e5679b4d.png?v=1710942555973');" data-href="URL_LIEN_1"></div>
+    <div class="item max" style="background-image: url('https://cdn.glitch.global/838d87f3-f7f8-4508-b4dd-6b86e4dd7d97/c8-7f049b095a11c1af504fb330375ebd1d.png?v=1710942647661');" data-href="URL_LIEN_2"></div>
+    <div class="item " style="background-image: url('https://cdn.glitch.global/838d87f3-f7f8-4508-b4dd-6b86e4dd7d97/c3-d2b551f949e3a3159dac946231bdfc2e.png?v=1710942643131');" data-href="URL_LIEN_3"></div>
+      <div class="item " style="background-image: url('https://cdn.glitch.global/838d87f3-f7f8-4508-b4dd-6b86e4dd7d97/c9-aa4dc061d436d2525b5f05d8e5679b4d.png?v=1710942555973');" data-href="URL_LIEN_1"></div>
     <div class="item" style="background-image: url('https://cdn.glitch.global/838d87f3-f7f8-4508-b4dd-6b86e4dd7d97/c8-7f049b095a11c1af504fb330375ebd1d.png?v=1710942647661');" data-href="URL_LIEN_2"></div>
     <div class="item" style="background-image: url('https://cdn.glitch.global/838d87f3-f7f8-4508-b4dd-6b86e4dd7d97/c3-d2b551f949e3a3159dac946231bdfc2e.png?v=1710942643131');" data-href="URL_LIEN_3"></div>
       <div class="item" style="background-image: url('https://cdn.glitch.global/838d87f3-f7f8-4508-b4dd-6b86e4dd7d97/c9-aa4dc061d436d2525b5f05d8e5679b4d.png?v=1710942555973');" data-href="URL_LIEN_1"></div>
@@ -446,21 +478,6 @@ margin-right: 25px;
     <!-- Ajouter d'autres div-items avec des images et des liens différents -->
 </div>
         
-        <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        setTimeout(function() {
-            document.querySelector('.lutte1').style.display = 'block';
-        }, 3000); // Div1 apparaît après 3 secondes
-        
-        setTimeout(function() {
-            document.querySelector('.lutte2').style.display = 'block';
-        }, 6000); // Div2 apparaît après 6 secondes
-        
-        setTimeout(function() {
-            document.querySelector('.lutte3').style.display = 'block';
-        }, 9000); // Div3 apparaît après 9 secondes
-    });
-</script>
         
         
 </div>
@@ -525,12 +542,285 @@ margin-right: 25px;
 </script>
   
   
-  
+      <div id="popup-container">
+      <div id="internalpop">
+        <button id="close-btn" onclick="closePopup()">Cancel</button>
+        <p class="popupTXT">Share with us your request</p>
+
+        <div id="formX">
+          <form
+            id="FORM_ID"
+            method="POST"
+            action="https://script.google.com/macros/s/AKfycbxBTCR2D2Gm1MFO21ZYytTUpLqqm2nUv-Q58JVUdV3sKwg9qE3cCy3qbaNhpuCo7ibSVw/exec"
+          >
+            <input
+              class="gum"
+              name="Emailx"
+              type="email"
+              placeholder="Email"
+              maxlength="35"
+              required
+            />
+            <input
+              class="gum"
+              name="Telx"
+              type="text"
+              placeholder="Phone"
+              maxlength="35"
+              required
+            />
+            <input
+              class="gum"
+              name="Entreprisex"
+              type="text"
+              placeholder="Company"
+              maxlength="35"
+              required
+            />
+
+            <textarea
+              class="gum gumtxtplus f2"
+              name="demandex"
+              placeholder="Request summary"
+              maxlength="400"
+            ></textarea
+            ><br />
+
+            <button type="submit" class="gumbtn">Submit</button>
+            
+            
+
+            <script type="text/javascript">
+              window.addEventListener("DOMContentLoaded", function () {
+                const yourForm = document.getElementById("FORM_ID");
+                yourForm.addEventListener("submit", function (e) {
+                  e.preventDefault();
+                  const data = new FormData(yourForm);
+                  const action = e.target.action;
+                  fetch(action, {
+                    method: "POST",
+                    body: data,
+                  }).then(() => {
+                    window.location.replace("/20398203723780283217390028370921321");
+                  });
+                });
+              });
+            </script>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function openPopup() {
+        document.getElementById("popup-container").style.display = "block";
+      }
+
+      function closePopup() {
+        document.getElementById("popup-container").style.display = "none";
+      }
+    </script>
 
   
   <style>
     
     
+      #popup-container {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        z-index: 9999999999999999;
+        width: 100%;
+        height: 100vh;
+
+        background: #a0a0a015 !important;
+        -webkit-backdrop-filter: blur(
+          5px
+        ) !important;
+        backdrop-filter: blur(5px) !important;
+      }
+
+      #internalpop {
+        background-color: #0b1416;
+        max-width: 90%;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 14px;
+        border: 1px solid #252c2e;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: block;
+        filter: drop-shadow(0 0 0.75rem #252c2e);
+      }
+
+      
+      @media only screen and (max-width: 767px) and (orientation: portrait) {
+
+              #internalpop {
+      width: 340px !important;
+      }
+}
+
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+              #internalpop {
+      width: 340px !important;
+      }
+}
+      
+      
+      
+      #close-btn {
+        padding: 8px 12px;
+        cursor: pointer;
+        z-index: 99999999999999999;
+        border: 1px solid #0b1416;
+        background-color: #0b1416;
+        color: #05f0ff;
+        border-radius: 12px;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: "saasduoPAR" !important;
+        height: 42px;
+        letter-spacing: -0.3px;
+      }
+
+      input:focus,
+      textarea:focus,
+      button:focus {
+        outline: none;
+      }
+
+      textarea {
+        resize: none;
+      }
+      .gumbtn {
+        background-color: #d93b01;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-family: "saasduoPAR" !important;
+        font-weight: 100;
+        letter-spacing: -0.2px;
+        font-size: 20px;
+        border-radius: 15px !important;
+        margin-left: 0px;
+        margin-top: 13px;
+        margin-bottom: 30px;
+        height: 52px;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        width: 90%;
+        max-width: 442px;
+             position: relative;
+      overflow: hidden;
+      }
+      
+      
+
+
+      
+      @media only screen and (max-width: 767px) and (orientation: portrait) {
+      .gumbtn {
+        margin-bottom: 20px !important;
+            width: 100% !important;
+    max-width: 305px !important;
+      }
+}
+
+      
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+            .gumbtn {
+        margin-bottom: 20px !important;
+                          width: 100% !important;
+    max-width: 305px !important;
+      }
+      }
+      
+      
+      
+      
+      
+      
+      
+  
+      
+      .gumbtn:hover {
+        background: #b13507;
+        border: 1px solid #962900;
+      }
+      .gum {
+        margin-top: 15px;
+        background: #1a282d;
+        border: 1px solid #1a282d;
+        border-radius: 18px;
+        text-align: left;
+        font-size: 20px !important;
+        font-family: "saasduoPAR" !important;
+        letter-spacing: 0px;
+        color: #fff;
+        line-height: 40px;
+        cursor: text;
+        width: 90%;
+        max-width: 400px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 9px;
+        padding-bottom: 7px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      
+      
+      @media only screen and (max-width: 767px) and (orientation: portrait) {
+
+              .gum {
+        width: 78% !important;
+        max-width: 263px !important;
+      }
+        
+}
+
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+              .gum {
+        width: 78% !important;
+        max-width: 263px !important;
+      }
+        
+}
+      
+      
+      .gum:hover {
+        box-shadow: 0 0 0px 4px #008eff38;
+      }
+
+      .gumbtn:hover {
+        box-shadow: 0 0 0px 4px #008eff38;
+      }
+
+      .gum::placeholder {
+        color: #fff;
+        font-family: "saasduoPAR" !important;
+        font-weight: 100;
+        letter-spacing: 0px;
+        line-height: 40px;
+        font-size: 20px;
+      }
               .PartnersBand {
           background-color: #00a67d;
         width: 100%;
@@ -570,60 +860,73 @@ margin-right: 25px;
   
   
   
-  </style>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-   <div class="VideosBand">
-  
-          <div class="Videos">
-          
-<div class="VideoDiv">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KRmBuQlMDNc?si=Qm5iHX0j8dlrChAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div class="DescriptionVideo">Rudis, Montage Video</div>
-            </div> 
-          
-            
-<div class="VideoDiv">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s88lGQNJKOc?si=SsYixZkh0gRLTnwB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-    <div class="DescriptionVideo">Rudis, Montage Video</div>        </div> 
-      
-            
-            <div class="VideoDiv">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZmJ4TZIYCOM?si=PR_8GPHcwFP3vqxJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div class="DescriptionVideo">Rudis, Montage Video</div> </div> 
-          
-            
-            <div class="VideoDiv">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dvzg5Nl2gF0?si=FjIKM-3RxPiGYihH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div class="DescriptionVideo">Rudis, Montage Video</div> </div> 
-          
-      
-            
-                        
-            <div class="VideoDiv">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HVNDS09CQqM?si=rLqGUG1I73N8z17N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div class="DescriptionVideo">Rudis, Montage Video</div> </div> 
-          
-            
-            <div class="VideoDiv">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uxQyS_zK1-Y?si=aylLYntC1Bh95IrK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div class="DescriptionVideo">Rudis, Montage Video</div> </div> 
-       
-            
-            
-      </div>
-      </div>
-  
-  <style>
+
     
+      .sticky-cta-bar {
+        background-color: #0f1a1c;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1999992929292929299292929292999;
+      }
+
+      .cta-text {
+        flex: 1;
+        margin-right: 10px;
+      }
+
+      .cta-button {
+        background-color: #ff6600;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      @media (max-width: 768px) {
+        .sticky-cta-bar {
+          flex-direction: column;
+          text-align: left !important;
+          padding: 10px;
+          padding-bottom: 20px !important;
+        }
+
+        .fermerinfoable {
+          margin-left: 8.5px;
+          margin-right: auto;
+        }
+
+        .cta-text {
+          margin-bottom: 12px;
+          margin-left: 10px;
+        }
+      }
+
+      .linkcookies {
+        color: #05f0ff !important;
+        text-decoration: none;
+      }
+
+      .linkcookies:hover {
+        text-decoration: none;
+      }
+    
+      .sous-titreinfoable {
+        margin-top: 10px;
+        text-align: left;
+        font-size: 16px !important;
+        font-family: "saasduoPAR" !important;
+        letter-spacing: 0px;
+        color: #b7c5c8;
+        line-height: 26px;
+        font-weight: 500;
+        cursor: default;
+      }
         
               .iframe {
           border-radius: 12px;
@@ -667,10 +970,171 @@ margin-right: 25px;
     }
   
   
+      .fermerinfoable {
+        background-color: #d93b01;
+        color: #fff;
+        padding: 8px 15px;
+        border: none;
+        cursor: pointer;
+        font-family: "saasduoPAR" !important;
+        font-weight: 100;
+        letter-spacing: -0.2px;
+        font-size: 20px;
+        border-radius: 15px !important;
+        margin-left: 0px;
+        height: 50px;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 9px;
+      }
+
+      .fermerinfoable:hover {
+        box-shadow: 0 0 0px 4px #008eff38;
+        cursor: pointer;
+        transition-duration: 0s;
+        background-color: #b13507;
+      }
   
   </style>
+  
+      <div class="sticky-cta-bar" id="maDiv">
+      <div class="cta-text">
+        <div class="sous-titreinfoable lazyload">
+          We use cookies and similar technologies to remember your preferences,
+          understand your journey, and measure the effectiveness of features.
+          With the help of third parties (<a
+            target="_blank"
+            href="https://support.google.com/analytics/answer/12159447?hl=fr"
+            class="linkcookies"
+            >Google Analytics</a
+          >
+          and
+          <a
+            target="_blank"
+            href="/privacy"
+            class="linkcookies"
+            >Synergius</a
+          >), we store depersonalized data to retrieve statistics and improve
+          the performance of our site — By using
+          <a href="/" class="linkcookies">saasduo.com</a>, you agree to the use
+          of all cookies and our privacy policy, so we also invite you to read
+          our
+          <a target="_blank" href="/privacy" class="linkcookies"
+            >privacy policy.</a
+          >
+          We collect personal information from you only when you sign up for the
+          services.
+        </div>
+      </div>
+      <button class="fermerinfoable lazyload" onclick="masquerDiv()">
+        Accept all
+      </button>
+
+      <script>
+        function masquerDiv() {
+          var div = document.getElementById("maDiv");
+          div.style.display = "none";
+        }
+      </script>
+    </div>
+
+  
+  
+        <footer class="footer-containerX">
+        <div class="columnX">
+          <h2 class="foot1">Company</h2>
+          <a
+            class="foot2"
+            target="_blank"
+            href="https://www.linkedin.com/company/saasduo/jobs/"
+            >Careers</a
+          ><br />
+          <a class="foot2" target="_blank" href="/impressum">Impressum</a><br />
+          <a
+            class="foot2"
+            target="_blank"
+            href="https://www.linkedin.com/company/saasduo/"
+            >LinkedIn</a
+          >
+        </div>
+        <div class="columnX">
+          <h2 class="foot1">Resources</h2>
+
+          <a class="foot2" target="_blank" href="/terms">Terms</a><br />
+          <a class="foot2" target="_blank" href="/privacy">Privacy</a><br />
+          <a class="foot2" target="_blank" href="/modern-slavery-act">Ethics</a>
+        </div>
+        <div class="columnX">
+          <h2 class="foot1">Console</h2>
+          <a class="foot2" target="_blank" href="/support">Support</a><br />
+          <a class="foot2" target="_blank" href="/data-center">Data center</a><br />
+          <a class="foot2" target="_blank" href="/customer-platform">Login</a>
+        </div>
+        <div class="columnX">
+          <h2 class="foot1">Contact</h2>
+          <a class="foot2" target="_blank" href="https://wa.me/447723501018"
+            >WhatsApp</a
+          ><br />
+          <a class="foot2" target="_blank" href="tel:+447723501018"
+            >+44 7723 501018</a
+          ><br />
+          <a class="foot2" target="_blank" href="mailto:mail@saasduo.com"
+            >mail@saasduo.com</a
+          >
+        </div>
+      </footer>
+
+      <div class="footer-containerX2">
+        <div class="columnX2">
+          <p class="foot3">
+            <br />
+            This site is protected by reCAPTCHA and the
+            <a
+              href="https://policies.google.com/privacy"
+              class="cristalinefooterlink"
+              target="_blank"
+              >Google Privacy Policy</a
+            >
+            and
+            <a
+              href="https://policies.google.com/terms"
+              class="cristalinefooterlink"
+              target="_blank"
+            >
+              Terms of Service</a
+            >
+            apply — SaaSduo, a P/SaaS provider that adapts to your
+            business needs and anticipates them #EachInteractionMatters! Whether you’re a B2B or B2C
+            P/SaaS or an eCommerce, SaaSduo will help you end-to-end as a co-pilot
+            to think, create and maintain your solution and product — Copyright ©
+            2023 Synergius LTD — All rights reserved.<br /><br />
+            Hi! We are glad to have you on our website! Before you start using
+            our website, please note that we use cookies and similar
+            technologies to enhance your website experience, analyze traffic and
+            usage, personalize content to your preferences, and assist in our
+            marketing efforts — By using our website, you consent to allow us,
+            and our partners, to collect, use, retrieve, and store cookies and
+            similar technologies on your computer or other devices — You can
+            revoke your consent at any time in your computer/device browser
+            settings — Your data will be processed in
+            accordance with our Privacy Policy. <br /><br />SaaSduo is a
+            registered trademark, please contact us to receive a press kit — SaaSduo is a branch of Synergius LTD (UK company).
+          </p>
+        </div>
+      </div>
   
   
   
 </body>
+  
+  
+    <script>
+    if (location.protocol != "https:") {
+      location.href =
+        "https:" +
+        window.location.href.substring(window.location.protocol.length);
+    }
+  </script>
+  
+  
 </html>
