@@ -491,13 +491,29 @@ margin-right: 25px;
       
     </div>
   
+     <div id="divpartners">
   
-  
-  
+    <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Wistia-3.svg?v=1711190461878" alt="Image 2" class="imgpartners" onmouseover="changeImage(true)" onmouseout="changeImage(false)">
 </div>
-
-  <img src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Partners.svg?v=1711189995557" alt="Image 2" class="imgpartners">
   
+<script>
+    // Définir les liens des images
+    var originalImage = 'https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Wistia-3.svg?v=1711190461878';
+    var newImage = 'https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Partners.svg?v=1711189995557'; // Remplacez 'https://example.com/nouvelle-image.jpg' par le lien de votre nouvelle image
+
+    function changeImage(isNewImage) {
+        var img = document.querySelector('.imgpartners');
+        if (isNewImage) {
+            img.src = newImage;
+            img.alt = 'Nouvelle Image'; // Vous pouvez également changer l'attribut alt si nécessaire
+        } else {
+            img.src = originalImage;
+            img.alt = 'Image 1'; // Rétablir l'attribut alt d'origine
+        }
+    }
+</script>
+  
+</div>  
       <div id="popup-container">
       <div id="internalpop">
         <button id="close-btn" onclick="closePopup()">Cancel</button>
@@ -581,7 +597,26 @@ margin-right: 25px;
   <style>
     
     
-    .imgpartners
+    #divpartners { 
+  text-align: center !important;
+      display: block;
+    }
+    
+    .imgpartners{ 
+    width: 320px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    transition-duration: 0.3s;
+    
+    }
+    
+    
+        
+    .imgpartners:hover{ 
+        transform: scale(1.05);
+    transition-duration: 0.3s;
+    
+    }
     
       #popup-container {
         display: none;
